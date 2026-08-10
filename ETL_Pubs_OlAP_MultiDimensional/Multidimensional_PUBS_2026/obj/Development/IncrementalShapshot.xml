@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Multidimensional_PUBS_2026</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>1st52ElROplP/55zLzaXjHdbzLM=7/30/2026 10:10:42 AM7/30/2026 10:10:42 AM</TimeStamp>
+        <ID>
+          <String>Pubs DW 2026</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>KOJeE8xCR9V8ccDDGDuVV7CdNWs=8/1/2026 4:37:03 AM7/30/2026 10:13:26 AM</TimeStamp>
+        <ID>
+          <String>Pubs DW 2026</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>inzSmd1Ajjtp/iuHB0R3SlakRZ0=7/31/2026 1:19:18 AM7/31/2026 1:07:50 AM</TimeStamp>
+        <ID>
+          <String>DimDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WvIzSbjEIV5iPaagu271jUFFoYQ=7/31/2026 1:47:59 AM7/31/2026 1:27:11 AM</TimeStamp>
+        <ID>
+          <String>Dimauthors</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YPWxGgamqcrbWROWZJtGgc9eytI=7/31/2026 2:09:13 AM7/31/2026 1:50:38 AM</TimeStamp>
+        <ID>
+          <String>DimGeography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HYFkkN4HVHBkelgla0kucbJjXgY=7/31/2026 6:20:52 AM7/31/2026 2:17:24 AM</TimeStamp>
+        <ID>
+          <String>DimPublishers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>u6SNN5NzsVxuZPGappRq48jQzp8=8/1/2026 4:38:01 AM7/31/2026 4:19:52 AM</TimeStamp>
+        <ID>
+          <String>DimStore</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7yjxn8hA08pwQQ1PmmJfgvKBz5E=7/31/2026 6:20:52 AM7/31/2026 4:27:33 AM</TimeStamp>
+        <ID>
+          <String>DimTitles</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GVWjfl+IO935TzTnjTRkKCXi5rk=8/1/2026 4:37:03 AM7/31/2026 5:18:52 AM0KzXYYmqYHa+vPtgxObQ5flw950=7/31/2026 9:16:04 AM7/31/2026 5:18:52 AM</TimeStamp>
+        <ID>
+          <String>FactSales</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>9XSBeBEkw0ycg69aQiljszxYCKA=7/30/2026 7:51:23 AM7/30/2026 7:51:23 AM</TimeStamp>
+      <ID>
+        <String>Multidimensional_PUBS_2026</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-08-01T11:38:03.62Z</LastDeployed>
+</DeploymentSnapshot>
